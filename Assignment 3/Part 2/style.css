@@ -6,23 +6,35 @@ html {
 
 div {
   /*arranging the size and position*/
-  line-height: 8.5
+  line-height: 8.5;
   width: 200px;
   margin: auto;
-
+  height: 200px;
   font-size: 1.125rem;
+  /*Font size needs to be 16px*/
   text-align: center;
   color: white;
 
-  
-
-  background-color: red;
-  color: #FFFFFF;
-  box-sizing: border-box;
-  margin: 0 auto;
-  
   font-size: 1.125rem;
   color: white;
+  border: 1px solid #990000;
+
+
+  background-color: red;
+  background-image: linearGradient(
+  to top left,
+  rgba(0, 0, 0, 0.2),
+  rgba(0, 0, 0, 0.2) 30%
+  rgba(0, 0, 0, 0)
+);
+  
   text-shadow: 1px 1px 1px black;
-  border-radius: 
+  border-radius: 10px;
+
+  box-shadow: 2px 2px 5px black;
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+  inset 2px 2px 3px rgbs(0,0,0.6), 2px 2px 5px black;
+
+  
+
 }
