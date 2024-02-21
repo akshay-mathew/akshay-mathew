@@ -8,8 +8,8 @@ div {
   /*arrange the size and position*/
   line-height: 8.5;
   width: 200px;
-  margin: auto;
   height: 200px;
+  margin: auto;
   font-size: 1.125rem;
   /*Font size needs to be 16px*/
   text-align: center;
@@ -22,18 +22,14 @@ div {
 
 /*Background color and gradient*/
   background-color: red;
-  background-image: linearGradient(
-  to top left,
-  rgba(0, 0, 0, 0.2),
-  rgba(0, 0, 0, 0.2) 30%
-  rgba(0, 0, 0, 0)
-);
+  background-image: linearGradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30% rgba(0, 0, 0, 0));
 
-
+  /*text shadow*/
   text-shadow: 1px 1px 1px black;
-  border-radius: 10px;
 
-  
+  /*Border and border radius*/
+  border: 1px solid #990;
+  border-radius: 10px;
 
 
   /*box shadow*/
