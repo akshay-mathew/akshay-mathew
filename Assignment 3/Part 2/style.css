@@ -19,11 +19,9 @@ div {
   color: white;
   border: 1px solid #990000;
 
+
 /*Background color and gradient*/
   background-color: red;
-  text-shadow: 1px 1px 1px black;
-  border-radius: 10px;
-
   background-image: linearGradient(
   to top left,
   rgba(0, 0, 0, 0.2),
@@ -31,6 +29,14 @@ div {
   rgba(0, 0, 0, 0)
 );
 
+
+  text-shadow: 1px 1px 1px black;
+  border-radius: 10px;
+
+  
+
+
+  /*box shadow*/
   box-shadow: 2px 2px 5px black;
   box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
   inset -2px -2px 5px rgba(0, 0, 0, 0.6);
