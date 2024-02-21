@@ -6,9 +6,9 @@ html {
 
 div {
   /*arrange the size and position*/
-  line-height: 8.5;
+  line-height: 150px;
   width: 200px;
-  height: 200px;
+  height: 150px;
   margin: auto;
   font-size: 1.125rem;
   /*Font size needs to be 16px*/
@@ -22,7 +22,7 @@ div {
 
 /*Background color and gradient*/
   background-color: red;
-  background-image: linearGradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30% rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
 
   /*text shadow*/
   text-shadow: 1px 1px 1px black;
