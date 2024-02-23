@@ -105,3 +105,36 @@ a:hover {
 a:active {
   color: #3a3;
 }
+
+
+/* Navigation menu styles */
+nav {
+  float: left;
+  width: 20%;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin-bottom: 10px;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: #333; /* Adjust color to match your design */
+  font-size: 1.4rem; /* Match font size with other links */
+}
+
+nav ul li a:hover {
+  color: #a66; /* Adjust hover color */
+}
+
+nav ul li.active a {
+  font-weight: bold; /* Adjust font weight for active link */
+}
