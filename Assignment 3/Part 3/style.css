@@ -17,7 +17,7 @@ body {
   line-height: 1.6;
   letter-spacing: 0.5px;
   word-spacing: 2px;
-  font-family: 'pt_serifbold', serif;
+  font-family: 'Lato', sans-serif;
 }
 
 /* Layout */
@@ -46,6 +46,34 @@ header, section, aside, nav, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+
+/*Fonts*/
+@font-face {
+  font-family: 'pt_serifbold';
+  src: url('ptserif-bold-webfont.woff2') format('woff2'),
+       url('ptserif-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('Lato-Regular.woff2') format('woff2'),
+      url('Lato-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html{
+  font-family:'Lato' sans-serif;
+  font-size: 10px;
+}
+
+h1,h2{
+  font-family:'pt_serif'serif;
+  letter-spacing: 2px;
+}
 
 /*Headings*/
 
@@ -92,6 +120,13 @@ a {
   position: relative;
 }
 
+a[ href*="http"] {
+  padding-right: 19px;
+  background: url(external-link-52.png) no-repeat 100% 0;
+  background-size: 16px 16px;
+}
+  
+
 a:visited {
   color: #794d35;
 }
@@ -104,37 +139,4 @@ a:hover {
 }
 a:active {
   color: #3a3;
-}
-
-
-/* Navigation menu styles */
-nav {
-  float: left;
-  width: 20%;
-  padding: 20px;
-}
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-nav ul li {
-  margin-bottom: 10px;
-}
-
-nav ul li a {
-  display: block;
-  text-decoration: none;
-  color: #333; /* Adjust color to match your design */
-  font-size: 1.4rem; /* Match font size with other links */
-}
-
-nav ul li a:hover {
-  color: #a66; /* Adjust hover color */
-}
-
-nav ul li.active a {
-  font-weight: bold; /* Adjust font weight for active link */
 }
