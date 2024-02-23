@@ -42,13 +42,6 @@ header, section, aside, nav, footer {
   padding: 20px;
 }
 
-/* header and footer */
-
-header, footer {
-  border-top: 5px solid #a66;
-  border-bottom: 5px solid #a66;
-}
-
 /* WRITE YOUR CODE BELOW HERE */
 
 /*Headings*/
@@ -62,6 +55,7 @@ footer {
 /* Headings */
 h1 {
   font-size: 2.5rem; /* 25px */
+  text-align: center;
 }
 
 h2 {
