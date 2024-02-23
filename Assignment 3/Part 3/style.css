@@ -15,6 +15,8 @@ body {
   max-width: 1400px;
   font-size: 1.6rem;
   line-height: 1.6;
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
 }
 
 /* Layout */
@@ -69,6 +71,11 @@ p {
   font-size: 1.4rem; 
 }
 
+section > h2 + p:first-of-type,
+section > h1 + p:first-of-type {
+  text-indent: 20px;
+}
+
 /* Lists */
 ul,
 ol {
@@ -78,4 +85,14 @@ ol {
 /* Links */
 a {
   font-size: 1.4rem; 
+  color: #a66;
+}
+
+a:visited {
+  color: #794d35;
+}
+
+a:focus,
+a:hover {
+  color: #d99;
 }
