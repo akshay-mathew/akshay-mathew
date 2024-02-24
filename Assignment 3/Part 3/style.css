@@ -66,12 +66,12 @@ header, section, aside, nav, footer {
 }
 
 html{
-  font-family:'Lato' sans-serif;
+  font-family:'Lato', sans-serif;
   font-size: 10px;
 }
 
 h1,h2{
-  font-family:'pt_serif'serif;
+  font-family:'pt_serif', serif;
   letter-spacing: 2px;
 }
 
