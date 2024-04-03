@@ -196,6 +196,11 @@ function loop() {
     ball.collisionDetect();
   }
 
+  darkSphere.draw();
+  darkSphere.checkBounds();
+  darkSphere.collisionDetect();
+
+
   requestAnimationFrame(loop);
 }
 
