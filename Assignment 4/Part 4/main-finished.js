@@ -3,7 +3,9 @@
 // Date: 03 April, 2024
 // Description: Using javascript, adding different features to bouncing balls. 
 
-
+// Element shows the count of balls.
+const countDisplay = document.querySelector('p');
+let count = 0;
 
 // set up canvas
 
