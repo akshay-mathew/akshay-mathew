@@ -1,3 +1,10 @@
+// Name: Akshay Mathew
+// File: main-finished.js
+// Date: 03 April, 2024
+// Description: Using javascript, adding different features to bouncing balls. 
+
+
+
 // set up canvas
 
 const canvas = document.querySelector("canvas");
