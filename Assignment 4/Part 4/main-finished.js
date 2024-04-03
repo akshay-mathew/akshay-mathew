@@ -180,7 +180,11 @@ while (balls.length < 25) {
   );
 
   balls.push(ball);
+  count++;
+  countDisplay.textContent = 'Ball count: ' + count;
 }
+
+const darkSphere = new EvilCircle(random(0,width), random(0,height)); 
 
 function loop() {
   ctx.fillStyle = "rgba(0, 0, 0, 0.25)";
