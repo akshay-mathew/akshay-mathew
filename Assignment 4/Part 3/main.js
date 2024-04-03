@@ -1,3 +1,7 @@
+// Name: Akshay Mathew
+// File: main.js
+// Date: 03 April, 2024
+// Description: Using Javascript creating some bouncing balls, exploring different properties of the language.
 // setup canvas
 
 const canvas = document.querySelector("canvas");
@@ -9,7 +13,8 @@ const height = (canvas.height = window.innerHeight);
 // function to generate random number
 
 function random(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+  const num = Math.floor(Math.random() * (max - min + 1)) + min;
+  return num;
 }
 
 // function to generate random color
