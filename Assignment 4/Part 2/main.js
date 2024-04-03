@@ -20,10 +20,11 @@ const alts = {
     'pic5.jpg' : 'Large moth on a leaf'
   }
 /* Looping through images */
-
 const newImage = document.createElement('img');
-newImage.setAttribute('src', xxx);
-newImage.setAttribute('alt', xxx);
-thumbBar.appendChild(newImage);
-
+for (const image of imageFilenames) {
+    const newImage = document.createElement('img');
+    newImage.setAttribute('src',`images/${image}`);
+    newImage.setAttribute('alt', xxx);
+    thumbBar.appendChild(newImage);
+}
 /* Wiring up the Darken/Lighten button */
