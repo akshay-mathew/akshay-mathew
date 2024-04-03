@@ -89,6 +89,7 @@ class Ball extends Shape {
       }
     }
   }
+  
 }
 
 // Class called EvilCircle is created.
@@ -192,10 +193,12 @@ function loop() {
   ctx.fillRect(0, 0, width, height);
 
   for (const ball of balls) {
+    if(ball.exists){
     ball.draw();
     ball.update();
     ball.collisionDetect();
   }
+}
 
   darkSphere.draw();
   darkSphere.checkBounds();
