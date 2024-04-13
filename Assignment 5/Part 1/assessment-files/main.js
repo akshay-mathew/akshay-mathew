@@ -1,3 +1,8 @@
+//Name: Akshay Mathew
+//File: main.js
+//Date: 12 September 202
+//A very brief description of the file.
+
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
